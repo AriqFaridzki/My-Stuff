@@ -1,0 +1,31 @@
+#sidebar{
+	background-color: #242424;
+	color:white;
+	position: fixed;
+	top:0;
+	left:0;
+	width:200px;
+	height:100%;
+	text-align: center;
+}
+
+.content{
+	margin:3% 5% 0 250px;
+
+}
+.space{
+	margin:50px 0px;
+}
+
+.btn-setting{
+	padding:1%;
+	font-size:100%;
+	border-radius: 5px;
+	border: 4px groove;
+}
+
+.content .isi-setting{
+	font-size:1.1rem;
+	text-indent:30px;
+	line-height: 1.6rem;
+}

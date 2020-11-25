@@ -1,0 +1,50 @@
+.navbar{
+position: fixed;
+top: 0;
+left: 0;
+
+height: 45px;
+width:100%;
+background-color:#0066FF;
+z-index: 1;
+}
+
+.navbar .content{
+	margin:10px 20px;
+	padding-right:10px;
+}
+
+.spasi{
+	margin-right:15px;
+}
+
+.white{
+	color: white;
+}
+
+.sidebar{
+	position: fixed;
+	width:200px;
+	height:100%;
+	left:0;
+	top:0;
+	background-color: lightgrey;
+	z-index: 0;
+}
+
+.sidebar .content{
+	padding:60px 0px 0px 25px;
+}
+
+.main-content{
+	margin: 8% 10% 0px 25%;
+
+}
+
+.content-slash {
+	margin-top:5%;
+}
+
+.red{
+	color: red;
+}

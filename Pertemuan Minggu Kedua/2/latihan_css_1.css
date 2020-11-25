@@ -1,0 +1,46 @@
+.content-slash {
+	margin-top:5%;
+	border-top: 3px solid black;
+}
+
+.border{
+	border: 3px solid black;
+	padding: 5%;
+	margin:10%;
+
+}
+
+.box-model-1{
+	border: 1px none;
+	border-radius: 20px;
+	background-color: blue;
+	padding:7px 10px;
+	margin-right:15px;
+	color: white;
+	text-align:center;
+}
+
+.box-model-2{
+	border: 1px none;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	background-color: red;
+
+	padding: 15px;
+	margin-top: 30px;
+	width:75px;
+}
+
+.button-box{
+	border: 1px none;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	background-color: red;
+	display: block;
+
+}
+
+
+.white-text{
+	color: white;
+}

@@ -1,0 +1,38 @@
+.aku-flex{
+	display: flex;
+	flex-wrap:wrap;
+}
+
+.cardbox{
+	width: 25%;
+	text-align: center;
+	box-sizing: border-box;
+	padding:5px 5px;
+	border: 1px solid rgba(255,192,203,0.5)
+}
+
+.border-box{
+	border: 2px solid pink;
+
+}
+
+.aku-flex2{
+	display: flex;
+	flex-wrap:nowrap;
+	margin:1% 10%;
+}
+
+.text{
+	width: calc(100% - 300px);
+	border: 2px solid rgba(255,192,203,0.5)
+
+}
+
+.gambar{
+	width: 300px;
+	border: 2px solid rgba(255,192,203,0.5)
+}
+
+.size-gambar{
+	width: 300px
+}

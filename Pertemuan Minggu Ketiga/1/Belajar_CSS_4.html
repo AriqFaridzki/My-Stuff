@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar CSS 4</title>
+	<link rel="stylesheet" type="text/css" href="Belajar_CSS_4.css">
+</head>
+<body>
+
+
+	<div class="aku-flex"> <!-- menggunakan flex wrap -->
+
+		<div class="cardbox">
+			<div class="border-box">
+				Test
+			</div>
+		</div>
+
+		<div class="cardbox">
+			<div class="border-box">
+				Test
+			</div>
+		</div>
+
+		<div class="cardbox">
+			<div class="border-box">
+				Test
+			</div>
+		</div>
+
+		<div class="cardbox">
+			<div class="border-box">
+				Test
+			</div>
+		</div>
+
+		<div class="cardbox">
+			<div class="border-box">
+				Test
+			</div>
+		</div>
+
+	</div>
+
+
+
+
+</body>
+</html>
+
+
+<!-- 1. Propety Width dan Height ada termasuk paket property Border + padding + height/width jadi kalau misalnya kita memasukan value 30px maka akan menghasilkan karena ada default value pada padding (biasanya 2px *tergantung) dan border(biasanya 1 px) 33px karena ada penambahan pada padding dan border -->
+
+<!-- 2. Box-sizing : bordered-box; untuk solusi pada nomer 1 digunakan untuk menghilangkan jatah border mengambil jarak luar.-->
+
+
+<!-- 3. value property flex-wrap (display:flex)
+ada 2 value yaitu :
+
+1.wrap (jika melebihi batas yg ditentukan maka akan membuat baris baru)
+2.nowrap (jika melebihi batas yg ditentukan maka akan terus memanjang.-->
+
+<!-- 4. jika ingin menambah jarak antara box konten tanpa menggunakan margin maka menggunakan 2 class child lagi yaitu 		
+
+<div class="aku-flex"> *ini parent 1
+
+	<div class="cardbox"> *ini parent 2 dari child dari parent 1 
+
+		<div class="border-box"> *ini child dari parent 2
+				Test
+			</div>
+		</div>
+
+	</div>
+
+setelah seperti ini maka menambahkan padding pada class "cardbox" tanpa border maka ini akan terlihat seperti border tidak keliatan
+
+nah pada class "border-box" tinggal menambahkan border, nanti hasilnya seperti ada jarak antara box lainya
+-->
+
+<!-- 5. property value calc digunakan untuk memberikan hasil sisa dari layar kamu seperti calc(100%-300px)   -->
+
+
+
+<!-- menanyakan box size penambahan -->
+
