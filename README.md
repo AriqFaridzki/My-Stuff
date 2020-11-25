@@ -1,4 +1,7 @@
 # My-Stuff
+
+Hi Welcome back Ariq-
+
 git init .
 git add (nama file)/.
 git commit -m "Komentar anda"
